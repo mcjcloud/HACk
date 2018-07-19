@@ -10,9 +10,18 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    // static data
+    static var username: String?
+    static var password: String?
+    
+    static var loggedIn: Bool = false
+    
+    // flags - used to set flags when reloading webView, to determine when to continue with execution.
+    static var classworkFlag = false
+    static var iframeFlag = false
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

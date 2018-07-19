@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		D8532A971DF1DE1D002CD3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8532A961DF1DE1D002CD3AA /* AppDelegate.swift */; };
-		D8532A991DF1DE1D002CD3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8532A981DF1DE1D002CD3AA /* ViewController.swift */; };
+		D8532A991DF1DE1D002CD3AA /* HkLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8532A981DF1DE1D002CD3AA /* HkLoginViewController.swift */; };
 		D8532A9C1DF1DE1E002CD3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8532A9A1DF1DE1E002CD3AA /* Main.storyboard */; };
 		D8532A9E1DF1DE1E002CD3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8532A9D1DF1DE1E002CD3AA /* Assets.xcassets */; };
 		D8532AA11DF1DE1E002CD3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8532A9F1DF1DE1E002CD3AA /* LaunchScreen.storyboard */; };
+		D8532AAA1DF206A0002CD3AA /* HkClassesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8532AA91DF2069F002CD3AA /* HkClassesTableViewController.swift */; };
+		D8532AAD1DF2071C002CD3AA /* HkClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8532AAC1DF2071C002CD3AA /* HkClassTableViewCell.swift */; };
+		D88052161DF54290002ABF2E /* HkAssignmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88052151DF54290002ABF2E /* HkAssignmentsTableViewController.swift */; };
+		D88052181DF54390002ABF2E /* HkAssignmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88052171DF54390002ABF2E /* HkAssignmentTableViewCell.swift */; };
+		D880521B1DF5CC76002ABF2E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = D880521A1DF5CC76002ABF2E /* Class.swift */; };
+		D880521D1DF5CDAF002ABF2E /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D880521C1DF5CDAF002ABF2E /* Assignment.swift */; };
+		D880521F1DF5D237002ABF2E /* HkHACInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D880521E1DF5D237002ABF2E /* HkHACInterface.swift */; };
+		E15DB562CA16587D42014CAA /* Pods_HACk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AB473F408C4B05BAE80066 /* Pods_HACk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5422ED0F88AD910BC30D1E24 /* Pods-HACk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HACk.release.xcconfig"; path = "Pods/Target Support Files/Pods-HACk/Pods-HACk.release.xcconfig"; sourceTree = "<group>"; };
+		A1AB473F408C4B05BAE80066 /* Pods_HACk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HACk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8532A931DF1DE1D002CD3AA /* HACk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HACk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8532A961DF1DE1D002CD3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8532A981DF1DE1D002CD3AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8532A981DF1DE1D002CD3AA /* HkLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HkLoginViewController.swift; sourceTree = "<group>"; };
 		D8532A9B1DF1DE1E002CD3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8532A9D1DF1DE1E002CD3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8532AA01DF1DE1E002CD3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8532AA21DF1DE1E002CD3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8532AA91DF2069F002CD3AA /* HkClassesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HkClassesTableViewController.swift; sourceTree = "<group>"; };
+		D8532AAC1DF2071C002CD3AA /* HkClassTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HkClassTableViewCell.swift; sourceTree = "<group>"; };
+		D88052151DF54290002ABF2E /* HkAssignmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HkAssignmentsTableViewController.swift; sourceTree = "<group>"; };
+		D88052171DF54390002ABF2E /* HkAssignmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HkAssignmentTableViewCell.swift; sourceTree = "<group>"; };
+		D880521A1DF5CC76002ABF2E /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		D880521C1DF5CDAF002ABF2E /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		D880521E1DF5D237002ABF2E /* HkHACInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HkHACInterface.swift; sourceTree = "<group>"; };
+		E669F490DB240F1BC5297277 /* Pods-HACk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HACk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HACk/Pods-HACk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15DB562CA16587D42014CAA /* Pods_HACk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62FB689D541DD487354E0876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1AB473F408C4B05BAE80066 /* Pods_HACk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6315FB90B918ABAB39E2BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E669F490DB240F1BC5297277 /* Pods-HACk.debug.xcconfig */,
+				5422ED0F88AD910BC30D1E24 /* Pods-HACk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D8532A8A1DF1DE1C002CD3AA = {
 			isa = PBXGroup;
 			children = (
 				D8532A951DF1DE1D002CD3AA /* HACk */,
 				D8532A941DF1DE1D002CD3AA /* Products */,
+				A6315FB90B918ABAB39E2BB0 /* Pods */,
+				62FB689D541DD487354E0876 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +93,36 @@
 			isa = PBXGroup;
 			children = (
 				D8532A961DF1DE1D002CD3AA /* AppDelegate.swift */,
-				D8532A981DF1DE1D002CD3AA /* ViewController.swift */,
+				D8532A981DF1DE1D002CD3AA /* HkLoginViewController.swift */,
+				D8532AA91DF2069F002CD3AA /* HkClassesTableViewController.swift */,
+				D88052151DF54290002ABF2E /* HkAssignmentsTableViewController.swift */,
+				D8532AAB1DF206F9002CD3AA /* Views */,
+				D88052191DF5CC30002ABF2E /* Models */,
 				D8532A9A1DF1DE1E002CD3AA /* Main.storyboard */,
 				D8532A9D1DF1DE1E002CD3AA /* Assets.xcassets */,
 				D8532A9F1DF1DE1E002CD3AA /* LaunchScreen.storyboard */,
 				D8532AA21DF1DE1E002CD3AA /* Info.plist */,
 			);
 			path = HACk;
+			sourceTree = "<group>";
+		};
+		D8532AAB1DF206F9002CD3AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8532AAC1DF2071C002CD3AA /* HkClassTableViewCell.swift */,
+				D88052171DF54390002ABF2E /* HkAssignmentTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D88052191DF5CC30002ABF2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D880521A1DF5CC76002ABF2E /* Class.swift */,
+				D880521C1DF5CDAF002ABF2E /* Assignment.swift */,
+				D880521E1DF5D237002ABF2E /* HkHACInterface.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8532AA51DF1DE1E002CD3AA /* Build configuration list for PBXNativeTarget "HACk" */;
 			buildPhases = (
+				943A2EB64E70491354F1EC6A /* [CP] Check Pods Manifest.lock */,
 				D8532A8F1DF1DE1D002CD3AA /* Sources */,
 				D8532A901DF1DE1D002CD3AA /* Frameworks */,
 				D8532A911DF1DE1D002CD3AA /* Resources */,
+				18814487107BCC56F4C13ABF /* [CP] Embed Pods Frameworks */,
+				AF14DEFDC0B34074AC9753CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +196,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18814487107BCC56F4C13ABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HACk/Pods-HACk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943A2EB64E70491354F1EC6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF14DEFDC0B34074AC9753CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HACk/Pods-HACk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8532A8F1DF1DE1D002CD3AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8532A991DF1DE1D002CD3AA /* ViewController.swift in Sources */,
+				D88052161DF54290002ABF2E /* HkAssignmentsTableViewController.swift in Sources */,
+				D8532AAA1DF206A0002CD3AA /* HkClassesTableViewController.swift in Sources */,
+				D880521B1DF5CC76002ABF2E /* Class.swift in Sources */,
+				D8532AAD1DF2071C002CD3AA /* HkClassTableViewCell.swift in Sources */,
+				D880521D1DF5CDAF002ABF2E /* Assignment.swift in Sources */,
+				D88052181DF54390002ABF2E /* HkAssignmentTableViewCell.swift in Sources */,
+				D8532A991DF1DE1D002CD3AA /* HkLoginViewController.swift in Sources */,
+				D880521F1DF5D237002ABF2E /* HkHACInterface.swift in Sources */,
 				D8532A971DF1DE1D002CD3AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +376,12 @@
 		};
 		D8532AA61DF1DE1E002CD3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E669F490DB240F1BC5297277 /* Pods-HACk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43G9VP4VY7;
 				INFOPLIST_FILE = HACk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.HACk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +391,12 @@
 		};
 		D8532AA71DF1DE1E002CD3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5422ED0F88AD910BC30D1E24 /* Pods-HACk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 43G9VP4VY7;
 				INFOPLIST_FILE = HACk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloud.HACk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +423,7 @@
 				D8532AA71DF1DE1E002CD3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
